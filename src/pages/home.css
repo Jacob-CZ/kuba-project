@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap');
+#root {
+  max-width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Reem Kufi', sans-serif;
+}
+.productSection {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-left: 20vw;
+}
+
+
