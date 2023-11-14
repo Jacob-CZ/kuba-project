@@ -19,7 +19,7 @@ import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
     let [signed, setSigned] = useState(false);
-    const [email, setEmail] = useState('');
+    
     const [password, setPassword] = useState(''); 
     
     function createUser() {
